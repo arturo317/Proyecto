@@ -31,9 +31,36 @@
 		<button onclick="comer()">sopita sorpresa </button>
 	</section>
 
-	<button onclick="location.href=
-'C:/Users/Administrator/OneDrive/Escritorio/7MO_SEMESTRE 2022-2023/PROGRAMACION WEB 2/proyecto final/Principal.html'">
- Regresar</button>
+	<button class="button button5" onclick="location.href='javascript: history.go(-1)'">Regresar</button>
+<style>
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+  
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+</style>
 
 </body>
 	<script src="app.js"></script>
